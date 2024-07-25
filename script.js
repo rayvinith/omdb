@@ -1,4 +1,4 @@
-const OMDB_API_URL = "http://www.omdbapi.com/";
+const OMDB_API_URL = "https://www.omdbapi.com/";
 const OMDB_API_KEY = "a6ad5a72";
 const initialMovies = ["Inception", "The Dark Knight", "Interstellar", "Parasite", "Avengers: Endgame", "The Matrix", "Pulp Fiction", "Forrest Gump", "The Shawshank Redemption"];
 
