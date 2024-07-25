@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Details</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" class="href">
+
+  </head>
+  <body>
+    <div class="container mt-4 ">
+      <div class="card card-design">
+        <div class="card-body frame">
+          <h2 id="detailsTitle" class="card-title"></h2>
+          <img
+            id="detailsPoster"
+            src=""
+            alt="Poster"
+            class="img-fluid card-img-top"
+           
+          />
+          <p class="card-text mt-3">
+            <strong>Release Date:</strong> <span id="detailsReleaseDate"></span>
+          </p>
+          <p class="card-text">
+            <strong>IMDb Rating:</strong> <span id="detailsImdbRating"></span>
+          </p>
+          <p class="card-text">
+            <strong>Cast:</strong> <span id="detailsCast"></span>
+          </p>
+          <p class="card-text">
+            <strong>Plot:</strong> <span id="detailsPlot"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="movies.js"></script>
+  </body>
+</html>
